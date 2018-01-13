@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ua.artcode.model</OriginalElement>
+  <nodes>
+    <node x="0.0" y="123.0">ua.artcode.model.Client</node>
+    <node x="152.0" y="101.0">ua.artcode.model.Flight</node>
+    <node x="80.375" y="268.0">ua.artcode.model.Booking</node>
+    <node x="145.0" y="0.0">ua.artcode.model.City</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ua.artcode.model.Booking" target="ua.artcode.model.Flight">
+      <point x="43.5" y="-36.5" />
+      <point x="181.875" y="248.0" />
+      <point x="229.25" y="248.0" />
+      <point x="25.75" y="58.5" />
+    </edge>
+    <edge source="ua.artcode.model.Flight" target="ua.artcode.model.City">
+      <point x="-25.75" y="-58.5" />
+      <point x="177.75" y="76.0" />
+      <point x="174.25" y="76.0" />
+      <point x="-29.25" y="25.5" />
+    </edge>
+    <edge source="ua.artcode.model.Booking" target="ua.artcode.model.Client">
+      <point x="-14.5" y="-36.5" />
+      <point x="123.875" y="238.0" />
+      <point x="99.0" y="238.0" />
+      <point x="33.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="131.0" y="170.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
